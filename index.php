@@ -3,7 +3,6 @@
 <?php require "includes/header.php"; ?>
 <?php 
 
-
     $query = "SELECT * FROM foods WHERE meal_id=1";
     $app = new App;
     $meals_1 = $app->selectAll($query);
